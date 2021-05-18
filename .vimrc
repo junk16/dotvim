@@ -17,6 +17,9 @@ set statusline=%F\ %y\ [%n]\ [%l:%c\|%L]%<
 set showcmd
 set showmode
 
+" key setting
+set backspace=indent,eol,start
+
 " key mapping
 noremap <C-c> <Esc>
 inoremap <C-c> <Esc>
@@ -37,7 +40,8 @@ inoremap <C-j>  <down>
 inoremap <C-k>  <up>
 inoremap <C-h>  <left>
 inoremap <C-l>  <right>
-
+inoremap <C-d> <Del>
+imap <C-b> <BS>
 
 set rtp+=/usr/local/opt/fzf
 
