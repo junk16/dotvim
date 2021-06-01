@@ -13,3 +13,6 @@
 [submodule "pack/plugins/start/fzf.vim"]
 	path = pack/plugins/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
+[submodule "pack/plugins/start/preview-markdown.vim"]
+	path = pack/plugins/start/preview-markdown.vim
+	url = https://github.com/skanehira/preview-markdown.vim
