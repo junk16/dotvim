@@ -10,6 +10,8 @@
 - [vim-fugitive](https://github.com/tpope/vim-fugitive.git)
 - [vim-go](https://github.com/fatih/vim-go.git )
 - [preview-markdown.vim](https://github.com/skanehira/preview-markdown.vim)
+- [vim-surround](https://github.com/tpope/vim-surround)
+- [auto-pairs](https://github.com/jiangmiao/auto-pairs)
 
 ## How to install
 ```

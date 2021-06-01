@@ -16,3 +16,9 @@
 [submodule "pack/plugins/start/preview-markdown.vim"]
 	path = pack/plugins/start/preview-markdown.vim
 	url = https://github.com/skanehira/preview-markdown.vim
+[submodule "pack/plugins/start/vim-surround"]
+	path = pack/plugins/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "pack/plugins/start/auto-pairs"]
+	path = pack/plugins/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
