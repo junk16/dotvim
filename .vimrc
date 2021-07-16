@@ -12,7 +12,8 @@ set hidden
 " setting display
 set number
 set cursorline
-set cursorcolumn
+"set cursorcolumn
+set guicursor=a:blinkwait700-blinkon400-blinkoff250
 set virtualedit=onemore
 set smartindent
 set visualbell
@@ -73,3 +74,6 @@ nnoremap <silent> ]B :blast<CR>”
 "nnoremap <C-t> :NERDTreeToggle<CR>
 "nnoremap <C-f> :NERDTreeFind<CR>
 
+
+" for grep setting
+set wildignore=node_modules/*,tags
