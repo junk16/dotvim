@@ -84,3 +84,15 @@ map <C-j> :GtagsCursor<CR>
 map <C-n> :cn<CR>
 map <C-p> :cp<CR>
 
+" Load YCM (only)
+"let &rtp .= ',' . expand( '<sfile>:p:h' )
+"filetype plugin indent on
+"let g:ycm_global_ycm_extra_conf="~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py"
+let g:ycm_global_ycm_extra_conf="/Users/jun.yamada/.vim/pack/plugins/opt/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py"
+execute 'packadd YouCompleteMe'
+
+" user command 
+command! Goc GoCoverage -gcflags=-l
+command! Nt  NERDTree
+command! W w
+command! Q q!

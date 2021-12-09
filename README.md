@@ -37,3 +37,29 @@ you have to install `[mdr](https://github.com/MichaelMure/mdr)`
 ```
 go install github.com/MichaelMure/mdr@latest
 ```
+
+## YouCompleteMe
+[ycm-core](https://github.com/ycm-core/YouCompleteMe#macos)
+
+### how to install
+```
+$  brew install cmake
+$  cd ~/.vim/bundle
+$  git clone https://github.com/Valloric/YouCompleteMe.git
+$  mkdir YouCompleteMe/ycmbuild
+$  cd YouCompleteMe
+$  git submodule update --init --recursive
+$  cd ycmbuild
+$  cmake -G "Unix Makefiles" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/
+$  make ycm_core
+```
+
+```
+mkdir -p ~/.vim/pack/plugins/opt
+git clone https://github.com/Valloric/YouCompleteMe ~/.vim/pack/plugins/opt/YouCompleteMe
+cd ~/.vim/pack/plugins/opt/YouCompleteMe && git submodule update --init --recursive && ./install.py --all
+```
+add to vimrc
+```
+execute 'packadd YouCompleteMe'
+```
