@@ -88,7 +88,7 @@ map <C-p> :cp<CR>
 "let &rtp .= ',' . expand( '<sfile>:p:h' )
 "filetype plugin indent on
 "let g:ycm_global_ycm_extra_conf="~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py"
-let g:ycm_global_ycm_extra_conf="/Users/jun.yamada/.vim/pack/plugins/opt/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py"
+let g:ycm_global_ycm_extra_conf="~/.vim/pack/plugins/opt/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py"
 execute 'packadd YouCompleteMe'
 
 " user command 
