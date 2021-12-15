@@ -13,18 +13,12 @@
 [submodule "pack/plugins/start/preview-markdown.vim"]
 	path = pack/plugins/start/preview-markdown.vim
 	url = https://github.com/skanehira/preview-markdown.vim
-[submodule "pack/plugins/start/vim-ruby"]
-	path = pack/plugins/start/vim-ruby
-	url = git://github.com/vim-ruby/vim-ruby.git
 [submodule "pack/plugins/start/vim-flog"]
 	path = pack/plugins/start/vim-flog
 	url = https://github.com/rbong/vim-flog.git
 [submodule "pack/plugins/start/ctrlp.vim"]
 	path = pack/plugins/start/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
-[submodule "pack/plugins/start/xml.vim"]
-	path = pack/plugins/start/xml.vim
-	url = https://github.com/othree/xml.vim.git
 [submodule "pack/plugins/start/nerdcommenter"]
 	path = pack/plugins/start/nerdcommenter
 	url = https://github.com/preservim/nerdcommenter.git

@@ -4,14 +4,8 @@
 `pack/plugins/start/`
 
 ## plugins
-- [fzf.vim](https://github.com/junegunn/fzf.vim.git)
-- [nerdtree](https://github.com/preservim/nerdtree.git)
-- [vim-airline](https://github.com/vim-airline/vim-airline.git)
-- [vim-fugitive](https://github.com/tpope/vim-fugitive.git)
-- [vim-go](https://github.com/fatih/vim-go.git )
-- [preview-markdown.vim](https://github.com/skanehira/preview-markdown.vim)
-- [vim-surround](https://github.com/tpope/vim-surround)
-- [auto-pairs](https://github.com/jiangmiao/auto-pairs)
+- run `git submodule`
+- [vim-plug](https://github.com/junegunn/vim-plug) => for vim-lisp management
 
 ## How to install
 ```
