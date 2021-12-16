@@ -68,15 +68,34 @@ nnoremap <silent> ]b :bnext<CR>
 nnoremap <silent> [B :bfirst<CR>
 nnoremap <silent> ]B :blast<CR>”
 
-" for NERDTree
+" for grep setting
+set wildignore=node_modules/*,tags,GTAGS,GRTAGS,GPATH
+
+"vim-plug setting
+call plug#begin()
+Plug 'kien/ctrlp.vim'
+Plug 'preservim/nerdtree'
+Plug 'preservim/nerdcommenter'
+Plug 'skanehira/preview-markdown.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'fatih/vim-go'
+
+""" lsp setting
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+Plug 'Shougo/deoplete.nvim'
+Plug 'lighttiger2505/deoplete-vim-lsp'
+Plug 'hrsh7th/vim-vsnip'
+Plug 'hrsh7th/vim-vsnip-integ'
+call plug#end()
+
+" NERDTree
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 "nnoremap <C-t> :NERDTreeToggle<CR>
 "nnoremap <C-f> :NERDTreeFind<CR>
-
-
-" for grep setting
-set wildignore=node_modules/*,tags,GTAGS,GRTAGS,GPATH
 
 " gtags
 map <C-h> :Gtags -f %<CR>
@@ -94,17 +113,6 @@ map <C-p> :cp<CR>
 
 
 " lsp setting
-call plug#begin()
-Plug 'prabirshrestha/asyncomplete.vim'
-Plug 'prabirshrestha/asyncomplete-lsp.vim'
-Plug 'prabirshrestha/vim-lsp'
-Plug 'mattn/vim-lsp-settings'
-Plug 'Shougo/deoplete.nvim'
-Plug 'lighttiger2505/deoplete-vim-lsp'
-Plug 'hrsh7th/vim-vsnip'
-Plug 'hrsh7th/vim-vsnip-integ'
-call plug#end()
-
 if empty(globpath(&rtp, 'autoload/lsp.vim'))
   finish
 endif
