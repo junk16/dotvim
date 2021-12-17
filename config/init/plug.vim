@@ -6,8 +6,9 @@ Plug 'preservim/nerdcommenter'
 Plug 'skanehira/preview-markdown.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'fatih/vim-go'
+Plug 'tpope/vim-surround'
 
-""" lsp setting
+"" lsp setting
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'prabirshrestha/vim-lsp'
