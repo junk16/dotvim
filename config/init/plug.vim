@@ -7,6 +7,9 @@ Plug 'skanehira/preview-markdown.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'fatih/vim-go'
 Plug 'tpope/vim-surround'
+Plug 'yegappan/taglist'
+Plug 'dhruvasagar/vim-table-mode'
+Plug 'easymotion/vim-easymotion'
 
 "" lsp setting
 Plug 'prabirshrestha/asyncomplete.vim'
