@@ -5,5 +5,4 @@ nnoremap <C-n> :NERDTree<CR>
 "nnoremap <C-t> :NERDTreeToggle<CR>
 "nnoremap <C-f> :NERDTreeFind<CR>
 
-echo 'hello'
-
+let NERDTreeIgnore = ['node_modules', '\.DS_Store', '\.git', '\.husky']
