@@ -25,3 +25,9 @@ you have to install `[mdr](https://github.com/MichaelMure/mdr)`
 go install github.com/MichaelMure/mdr@latest
 ```
 
+
+### vim-go
+run
+```
+:GoUpdateBinaries gopls
+```
