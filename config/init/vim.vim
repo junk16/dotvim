@@ -63,5 +63,10 @@ nnoremap <silent> [B :bfirst<CR>
 nnoremap <silent> ]B :blast<CR>”
 
 " for grep setting
-set wildignore=node_modules/*,tags,GTAGS,GRTAGS,GPATH
+set wildignore=node_modules/*,tags,GTAGS,GRTAGS,GPATH,build/**,.git/**
 
+" gtags.vim
+nnoremap <silent> <Space>f :Gtags -f %<CR>
+nnoremap <silent> <Space>j :GtagsCursor<CR>
+nnoremap <silent> <Space>d :<C-u>exe('Gtags '.expand('<cword>'))<CR>
+nnoremap <silent> <Space>r :<C-u>exe('Gtags -r '.expand('<cword>'))<CR>

@@ -10,6 +10,8 @@ Plug 'tpope/vim-surround'
 Plug 'yegappan/taglist'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'easymotion/vim-easymotion'
+Plug 'vim-scripts/taglist.vim'
+Plug 'lighttiger2505/gtags.vim'
 
 "" lsp setting
 Plug 'prabirshrestha/asyncomplete.vim'
